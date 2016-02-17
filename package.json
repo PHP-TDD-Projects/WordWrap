@@ -1,0 +1,23 @@
+{
+  "name": "WordWrap",
+  "version": "0.1.0",
+  "author": "sprov03",
+  "homepage": "https://github.com/sprov03/WordWrap",
+  "bugs": "https://github.com/sprov03/WordWrap/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sprov03/WordWrap.git"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4",
+    "grunt-shell": "~0.7",
+    "grunt-phplint": "~0.0",
+    "grunt-phpunit": "~0.3",
+    "grunt-version": "~1.0",
+    "load-grunt-tasks": "~3.1",
+    "time-grunt": "~1.1"
+  }
+}
