@@ -61,6 +61,10 @@ directory to run is
 apply and click ok
 
 
+This is the link to the tutorial that we are following to get a feel for the workflow
+http://code.tutsplus.com/tutorials/lets-tdd-a-simple-app-in-php--net-26186
+
+
 This will be the end of  the READ.md
 
 
