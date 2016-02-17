@@ -1,6 +1,83 @@
 WordWrap
 ==============
 
+Clone the repo
+
+git clone git@github.com:PHP-TDD-Projects/WordWrap.git
+
+open the project in phpStorm
+
+open terminal in phpStorm
+
+npm install
+
+grunt init
+
+open preferences (cmd ,)
+
+php->composer
+
+if using MAMP and php version 5.5.26 path to exicutible is
+    /Applications/MAMP/bin/php/php5.5.26/bin/php
+
+click the link to download the composer.phar file
+
+browse to find the composer.json file and add it.
+
+apply and click ok
+
+Add new interpreter
+
+open preferences again (cmd ,)
+
+php click the add button it is a plus symbol
+
+open preferences again (cmd , )
+    
+tools->commandLineToolSupport 
+
+click the add button it is a plus symbol
+
+path to the php exicutible is
+   /Applications/MAMP/bin/php/php5.5.26/bin/php 
+
+click ok.
+Apply and click ok again.
+
+under the tools dropdown select the run command
+
+c install  (this will install all the composer dependencies)
+
+setting up a test
+
+in the run dropdown click the edit configurations
+click the add button is a plus sign
+select PHPUnit
+
+set the name to Testing Main
+directory to run is 
+    /Applications/MAMP/htdocs/WordWrap/tests
+
+apply and click ok
+
+
+This is the link to the tutorial that we are following to get a feel for the workflow
+http://code.tutsplus.com/tutorials/lets-tdd-a-simple-app-in-php--net-26186
+
+
+This will be the end of  the READ.md
+
+
+
+
+
+
+
+
+
+
+
+
 About
 --------------
 
@@ -31,7 +108,7 @@ npm install -g grunt-cli
 Run composer install to make sure the new changes are updated
 
 ```
-npm istall
+npm install
 ```
 
 
