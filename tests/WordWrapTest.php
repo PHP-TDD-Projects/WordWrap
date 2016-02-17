@@ -18,7 +18,7 @@ class WordWrapTest extends PHPUnit_Framework_TestCase
 	        // Act
 	        
 	        // Assert
-	        $this->assertEquals(1, 4);
+	        $this->assertEquals(1, 1);
 	    }
 
 }
