@@ -18,47 +18,50 @@ open preferences (cmd ,)
 php->composer
 
 if using MAMP and php version 5.5.26 path to exicutible is
-    /Applications/MAMP/bin/php/php5.5.26/bin/php
+    /usr/bin/php
+   
+Click the browse files button to select the Path to PHP exicutable
+    navigate to project directory
+    select composer.phar file
+ 
+Click the browse files button to select the Path to the composer.json
+    navigate to the project directory
+    select composer.json file
+    apply and click ok
 
-click the link to download the composer.phar file
 
-browse to find the composer.json file and add it.
-
-apply and click ok
-
-Add new interpreter
-
-open preferences again (cmd ,)
-
-php click the add button it is a plus symbol
-
-open preferences again (cmd , )
+Add new php interpreter
+    select PHP
+    Select PHP language level 5.5
+    Click the browse files button to create a new Interpreter
+    Change the name to PHP 5.5 mac
+    Set the PHP executable: /usr/bin/php
+    click ok
     
-tools->commandLineToolSupport 
+To exicute the composer.phar file
+    select Tools->commandLineToolSupport
+    Click the plus sign to add the path to the executable
+    Path to PHP executable: set to /user/bin/php
+    Path to composer.phar: navigate to the project directory, select composer.json file
+    click ok
+    
+Click apply and ok
+ 
+Under the tools dropdown select the run command
+    c install  (this will install all the composer dependencies)
+    Once compleate a popup will ask if you want to add the files to git
+    Click Cancel
+    
 
-click the add button it is a plus symbol
+setting up a UnitTest
+    in the run dropdown click the edit configurations
+    click the add button is a plus sign
+    select PHPUnit
 
-path to the php exicutible is
-   /Applications/MAMP/bin/php/php5.5.26/bin/php 
-
-click ok.
-Apply and click ok again.
-
-under the tools dropdown select the run command
-
-c install  (this will install all the composer dependencies)
-
-setting up a test
-
-in the run dropdown click the edit configurations
-click the add button is a plus sign
-select PHPUnit
-
-set the name to Testing Main
-directory to run is 
-    /Applications/MAMP/htdocs/WordWrap/tests
-
-apply and click ok
+   set the Name to 'Run all test'
+   set the directory to run test files to 
+        (projectDirctory)/tests
+   apply and click ok
 
 
 This is the link to the tutorial that we are following to get a feel for the workflow
