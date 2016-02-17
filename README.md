@@ -28,6 +28,12 @@ To install Grunt globally on the command line (and run the above build task), ru
 npm install -g grunt-cli
 ```
 
+Run composer install to make sure the new changes are updated
+
+```
+npm istall
+```
+
 
 Then, with Grunt, you can install Composer, PhpDocumentor, PhpUnit and PhpCPD locally. Just run once:
 
@@ -42,6 +48,10 @@ php composer.phar install -v
 ```
 
 Finally, you should also install the PHP extension named Xdebug, which will be used by PhpUnit for code coverage.
+
+```
+git clone git://github.com/xdebug/xdebug.git
+```
 
 
 Build the sources
@@ -61,6 +71,7 @@ The build process will run the following tasks:
 * Detects copy/paste of code in the files of the "src" folder with [PhpCPD](https://github.com/sebastianbergmann/phpcpd)
 
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+
 
 
 

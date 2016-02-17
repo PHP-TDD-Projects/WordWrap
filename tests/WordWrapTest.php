@@ -11,4 +11,14 @@ class WordWrapTest extends PHPUnit_Framework_TestCase
 		$this->assertEquals(0, $b->myParam);
 	}
 
+	public function test()
+	    {
+			// Arrange
+			
+	        // Act
+	        
+	        // Assert
+	        $this->assertEquals(1, 4);
+	    }
+
 }
