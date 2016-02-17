@@ -148,7 +148,6 @@ The build process will run the following tasks:
 * Detects copy/paste of code in the files of the "src" folder with [PhpCPD](https://github.com/sebastianbergmann/phpcpd)
 
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
-sdhfj
 
 
 
