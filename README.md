@@ -1,68 +1,86 @@
-WordWrap
-==============
+#WordWrap
 
-Clone the repo
+## Clone the repo
+```
+$ git clone git@github.com:PHP-TDD-Projects/WordWrap.git
+```
 
-git clone git@github.com:PHP-TDD-Projects/WordWrap.git
+## Setting up PhpStorm
 
-open the project in phpStorm
-
+open the project folder with PhpStorm.
 open terminal in phpStorm
 
+&nbsp;&nbsp;&nbsp;    if npm is not installed 
+&nbsp;&nbsp;&nbsp;    browse to https://nodejs.org/en/download/ and install node
+    
+&nbsp;&nbsp;&nbsp;   There is a good video on how to fix permissions if you need to 
+&nbsp;&nbsp;&nbsp;   https://docs.npmjs.com/getting-started/fixing-npm-permissions 
+
+```
 npm install
 
+npm install -g grunt-cli
+
 grunt init
+```
 
-open preferences (cmd ,)
+## Setting up composer executable
+Shortcut to preferences is (cmd ,)
 
-php->composer
+**Preferences->Languages&Frameworks->PHP->Composer**
+```
+    Path to exicutable: /usr/bin/php
+    Path to composer.phar: {**Project Directory**}/composer.phar
+    Path to composer.json: {**Project Directory**}/composer.json
+```
 
-if using MAMP and php version 5.5.26 path to exicutible is
-    /usr/bin/php
-   
-Click the browse files button to select the Path to PHP exicutable
-    navigate to project directory
-    select composer.phar file
- 
-Click the browse files button to select the Path to the composer.json
-    navigate to the project directory
-    select composer.json file
-    apply and click ok
+## Setting up interpreter
 
-
-Add new php interpreter
-    select PHP
-    Select PHP language level 5.5
+**Preferences->Languages&Frameworks->PHP**
+```
+    PHP language level: 5.5
     Click the browse files button to create a new Interpreter
-    Change the name to PHP 5.5 mac
-    Set the PHP executable: /usr/bin/php
-    click ok
-    
-To exicute the composer.phar file
-    select Tools->commandLineToolSupport
-    Click the plus sign to add the path to the executable
-    Path to PHP executable: set to /user/bin/php
-    Path to composer.phar: navigate to the project directory, select composer.json file
-    click ok
-    
-Click apply and ok
+        Name: PHP 5.5
+        PHP executable: /usr/bin/php
+        click ok
+```
  
-Under the tools dropdown select the run command
-    c install  (this will install all the composer dependencies)
-    Once compleate a popup will ask if you want to add the files to git
-    Click Cancel
-    
+## To exicute the composer.phar file
 
-setting up a UnitTest
-    in the run dropdown click the edit configurations
-    click the add button is a plus sign
+**Preferences->Tools->commandLineToolSupport**
+```
+    Click the plus sign to add the path to the executable
+        Choose Tool: Composer
+        Visibility: Project
+    click ok
+    Path to PHP executable: /user/bin/php
+    Path to composer.phar: {**Project Directory**}/composer.json
+    click ok
+```
+Click apply and ok
+
+## Running Composer install inside PhpStrom
+
+**_`Tools->run command`_**
+```
+    c install  (this will install all the composer dependencies)
+    Once compleated, a popup will ask if you want to add the files to git, Click Cancel
+``` 
+
+## Setting up a UnitTest
+
+**_`Run->edit configurations`_**
+```
+    click the plus sign to add configuration
     select PHPUnit
 
-   set the Name to 'Run all test'
-   set the directory to run test files to 
-        (projectDirctory)/tests
-   apply and click ok
+    Name: Run all test
+    Directory: {**Project Dirctory**}/tests
+    click apply and ok
+```
 
+This is the link to a youtube video on how to use unit test in PhpStorm
+https://www.youtube.com/watch?v=H5gDybRDVog&index=5&list=PLgTb0cfBmbMBXOm9qnWn3CSezmQc3bmxS
 
 This is the link to the tutorial that we are following to get a feel for the workflow
 http://code.tutsplus.com/tutorials/lets-tdd-a-simple-app-in-php--net-26186
