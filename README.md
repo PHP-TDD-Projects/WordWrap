@@ -67,6 +67,14 @@ Click apply and ok
     Once compleated, a popup will ask if you want to add the files to git, Click Cancel
 ``` 
 
+## Setting up PHPUnit
+
+**Preferences->Languages&Frameworks->PHP->PhpUnit**
+```
+    Use Custom Autoloader
+    Path to Script: {**Project Directory**}/vendor/autoload.php
+```
+
 ## Setting up a UnitTest
 
 **_`Run->edit configurations`_**
