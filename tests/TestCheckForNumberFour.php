@@ -1,7 +1,10 @@
 <?php
-use sprov03\WordWrap\WordWrap as myClass;
-require_once dirname(__FILE__) . '/../Classes/Fibonacci.php';
-class FibonacciTest extends PHPUnit_Framework_TestCase
+require_once dirname(__FILE__) . '/../Classes/CheckForNumberFour.php';
+class CheckForNumberFourTest extends PHPUnit_Framework_TestCase
 {
-
+    private $num;
+    function setUp()
+    {
+        $this->num = new CheckForNumberFour();
+    }
 }
