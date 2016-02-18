@@ -1,7 +1,27 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: vaughn
- * Date: 2/18/16
- * Time: 12:34 PM
- */
+class Fibonacci
+{
+    function isFibonnaci($n)
+    {
+        $firstFibonnaciEquation = sqrt(5 * $n * $n - 4);
+        if ($firstFibonnaciEquation - ceil($firstFibonnaciEquation) == 0) {
+            return true;
+        }
+
+        $secondFibonnaciEquation = sqrt(5 * $n * $n + 4);
+        if ($secondFibonnaciEquation - ceil($secondFibonnaciEquation) == 0) {
+            return true;
+        }
+        return false;
+
+        /*$secondFibonnaciEquation = sqrt(5 * $n * $n + 4);
+
+        if ($firstFibonnaciEquation - ceil($firstFibonnaciEquation) == 0) {
+            return true;
+        } else if ($secondFibonnaciEquation - ceil($secondFibonnaciEquation) == 0) {
+            return true;
+        } else {
+            return false;
+        }*/
+    }
+}
