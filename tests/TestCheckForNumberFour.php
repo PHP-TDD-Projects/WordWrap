@@ -1,7 +1,7 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: vaughn
- * Date: 2/18/16
- * Time: 1:52 PM
- */
+use sprov03\WordWrap\WordWrap as myClass;
+require_once dirname(__FILE__) . '/../Classes/Fibonacci.php';
+class FibonacciTest extends PHPUnit_Framework_TestCase
+{
+
+}
