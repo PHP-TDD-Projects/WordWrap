@@ -1,9 +1,8 @@
 <?php
 //require_once(dirname(dirname(__FILE__)) . '/src/sprov03/WordWrap/WordWrap.php');
-require_once dirname(__FILE__) . '/../Classes/Wrapper.php';
 use sprov03\WordWrap\WordWrap as myClass;
 
-class WordWrapTest extends PHPUnit_Framework_TestCase
+class Test extends PHPUnit_Framework_TestCase
 {
 
 	public function test()
