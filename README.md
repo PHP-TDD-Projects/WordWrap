@@ -10,18 +10,18 @@ $ git clone git@github.com:PHP-TDD-Projects/WordWrap.git
 open the project folder with PhpStorm.
 open terminal in phpStorm
 
-&nbsp;&nbsp;&nbsp;    if npm is not installed 
-&nbsp;&nbsp;&nbsp;    browse to https://nodejs.org/en/download/ and install node
+&nbsp;&nbsp;&nbsp;   if npm is not installed 
+&nbsp;&nbsp;&nbsp;   browse to https://nodejs.org/en/download/ and install node
     
 &nbsp;&nbsp;&nbsp;   There is a good video on how to fix permissions if you need to 
 &nbsp;&nbsp;&nbsp;   https://docs.npmjs.com/getting-started/fixing-npm-permissions 
 
 ```
-npm install
+    $ npm install
 
-npm install -g grunt-cli
+    $ npm install -g grunt-cli
 
-grunt init
+    $ grunt init
 ```
 
 ## Setting up composer executable
