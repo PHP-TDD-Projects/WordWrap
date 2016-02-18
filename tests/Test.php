@@ -31,4 +31,8 @@ class FibonacciTest extends PHPUnit_Framework_TestCase
     {
         $this->assertTrue($this->fib->isFibonnaci(89));
     }
+    function testSuperHighNumberShouldBeFalse()
+    {
+        $this->assertFalse($this->fib->isFibonnaci(1034583495));
+    }
 }
