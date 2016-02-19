@@ -6,6 +6,11 @@
   "keywords": [
     "php"
   ],
+  "autoload": {
+    "psr-0": {
+      "": "Classes/"
+    }
+  },
   "authors": [
     {
       "name": "sprov03",
